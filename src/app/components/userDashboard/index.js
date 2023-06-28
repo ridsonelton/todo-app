@@ -14,7 +14,7 @@ export default function UserDashboard() {
 
 
   const {todos,loading,error, setTodos} = useFetchTodos()
-  console.log(todos)
+ 
 
   useEffect(() =>{
     if(!userInfo || Object.keys(userInfo).length===0){

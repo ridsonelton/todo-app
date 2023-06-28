@@ -4,14 +4,14 @@ import { getFirestore } from 'firebase/firestore'
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_APIKEY,
-  authDomain: process.env.NEXT_PUBLIC_AUTHDOMAIN,
-  projectId: process.env.NEXT_PUBLIC_PROJECTID,
-  storageBucket: process.env.NEXT_PUBLIC_STORAGEBUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGINGSENDERID,
-  appId: process.env.NEXT_PUBLIC_APPID,
-  measurementId: process.env.NEXT_PUBLIC_MEASUREMENTID,
-}
+  apiKey: "AIzaSyDko-2UV5GLYUaVG4GE5jiD260mADR3MY8",
+  authDomain: "next-todo-69839.firebaseapp.com",
+  projectId: "next-todo-69839",
+  storageBucket: "next-todo-69839.appspot.com",
+  messagingSenderId: "220172353552",
+  appId: "1:220172353552:web:86bbd2fa1f62865ae44a95",
+  measurementId: "G-N20DP0WB4G"
+};
 
 const app = initializeApp(firebaseConfig)
 
